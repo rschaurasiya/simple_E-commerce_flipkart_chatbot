@@ -2,22 +2,20 @@
 
 A Streamlit chatbot for answering e-commerce FAQs, finding products in a SQLite catalog, and responding to casual conversation. It uses semantic routing to select a response path, Sentence Transformers to create local embeddings, ChromaDB for FAQ retrieval, and Groq for natural-language generation.
 
-> **Project links:** The URLs below are placeholders. Replace them with the original project links when available.
 
 | Resource | Link |
 | --- | --- |
-| Streamlit demo | [Open the demo](https://YOUR_APP_NAME.streamlit.app) |
+| Streamlit UI | https://e-commerce-chatbot-by-radheshyam.streamlit.app |
 | GitHub repository | [View the source](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY) |
 
-## Screenshots and architecture
+<h1 align="center">Streamlit Screenshots</h1>
 
-Replace the placeholder image below with a screenshot of the running Streamlit app:
+![Placeholder for a screenshot of the E-commerce Chatbot Streamlit interface](docs/images/project_photo.png)
+![Placeholder for a screenshot of the E-commerce Chatbot Streamlit interface](docs/images/project_photo_1.png)
 
-![Placeholder for a screenshot of the E-commerce Chatbot Streamlit interface](docs/images/project-screenshot-placeholder.svg)
+<h1 align="center">Architecture</h1>
 
-The architecture diagram below is included in this repository and can be edited at `docs/images/architecture.svg`.
-
-![Architecture diagram showing the chatbot's routing, FAQ, product SQL, and small-talk paths](docs/images/architecture.svg)
+![Architecture diagram showing the chatbot's routing, FAQ, product SQL, and small-talk paths](docs/images/workflow_e-commerce.png)
 
 ## What it does
 
@@ -52,8 +50,9 @@ The architecture diagram below is included in this repository and can be edited 
 │       └── faq_data.csv        # FAQ questions and answers
 ├── docs/
 │   └── images/
-│       ├── architecture.svg    # Application architecture diagram
-│       └── project-screenshot-placeholder.svg  # Replace with a real app screenshot
+│       ├── workflow_e-commerce.png    # Application architecture diagram
+│       └── project_photo.png  # Replace with a real app screenshot
+│        └── project_photo_1.png
 └── web_scrapping/
     ├── flipkart_data_extraction.ipynb  # Optional product scraping workflow
     └── csv_to_sqlite.py                # CSV-to-SQLite utility
@@ -61,7 +60,7 @@ The architecture diagram below is included in this repository and can be edited 
 
 ## Requirements
 
-- Python 3.10 or newer
+- Python 3.13 or newer
 - A Groq API key and a model ID supported by your Groq account
 - Internet access on first run to download the sentence-transformer model
 
