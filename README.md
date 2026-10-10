@@ -6,7 +6,7 @@ A Streamlit chatbot for answering e-commerce FAQs, finding products in a SQLite 
 | Resource | Link |
 | --- | --- |
 | Streamlit UI | https://e-commerce-chatbot-by-radheshyam.streamlit.app |
-| GitHub repository | [View the source](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY) |
+| GitHub repository | https://lnkd.in/p/dcW3YD79 |
 
 <h1 align="center">Streamlit Screenshots</h1>
 
